@@ -9,22 +9,22 @@
       "replaceBtn": "Replace Batch",
       "title": "New Assistant Recommendations:"
     },
-    "defaultMessage": "I am your personal intelligent assistant dinu, how can I help you now?\nIf you need a more professional or customized assistant, you can click on `+` to create a custom assistant",
+    "defaultMessage": "I am your personal intelligent assistant L-Chat, how can I help you now?\nIf you need a more professional or customized assistant, you can click on `+` to create a custom assistant",
     "qa": {
-      "q01": "What is LobeHub?",
-      "q02": "What is dinu?",
-      "q03": "Does dinu have community support?",
-      "q04": "What functions does dinu support?",
-      "q05": "How to deploy and use dinu?",
-      "q06": "What is the pricing of dinu?",
-      "q07": "Is dinu free?",
+      "q01": "What is L-Chat?",
+      "q02": "What is L-Chat?",
+      "q03": "Does L-Chat have community support?",
+      "q04": "What functions does L-Chat support?",
+      "q05": "How to deploy and use L-Chat?",
+      "q06": "What is the pricing of L-Chat?",
+      "q07": "Is L-Chat free?",
       "q08": "Is there a cloud service version?",
-      "q09": "Does dinu support local language models?",
-      "q10": "Does dinu support image recognition and generation?",
-      "q11": "Does dinu support speech synthesis and speech recognition?",
-      "q12": "Does dinu support a plugin system?",
+      "q09": "Does L-Chat support local language models?",
+      "q10": "Does L-Chat support image recognition and generation?",
+      "q11": "Does L-Chat support speech synthesis and speech recognition?",
+      "q12": "Does L-Chat support a plugin system?",
       "q13": "Is there a marketplace to obtain GPTs?",
-      "q14": "Does dinu support multiple AI service providers?",
+      "q14": "Does L-Chat support multiple AI service providers?",
       "q15": "What should I do if I encounter problems while using it?"
     },
     "questions": {
@@ -32,10 +32,10 @@
       "title": "Frequently Asked Questions:"
     },
     "welcome": {
-      "afternoon": "Good Afternoon",
-      "morning": "Good Morning",
-      "night": "Good Evening",
-      "noon": "Good "
+      "afternoon": "Good Afternoon Dude",
+      "morning": "Good Morning Dude",
+      "night": "Good Evening Dude",
+      "noon": "Good Afternoon Dude "
     }
   },
   "header": "Welcome",

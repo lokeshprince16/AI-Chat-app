@@ -51,7 +51,7 @@
     "502": "Sorry, the server seems to be lost and is temporarily unable to provide service. Please try again later.",
     "503": "Sorry, the server is currently unable to process your request, possibly due to overload or maintenance. Please try again later.",
     "504": "Sorry, the server did not receive a response from the upstream server. Please try again later.",
-    "AgentRuntimeError": "Lobe language model runtime execution error. Please troubleshoot or retry based on the following information.",
+    "AgentRuntimeError": "L-chat language model runtime execution error. Please troubleshoot or retry based on the following information.",
     "AnthropicBizError": "Error requesting Anthropic service. Please troubleshoot or retry based on the following information.",
     "AzureBizError": "Error requesting Azure AI service. Please troubleshoot or retry based on the following information.",
     "BedrockBizError": "Error requesting Bedrock service. Please troubleshoot or retry based on the following information.",

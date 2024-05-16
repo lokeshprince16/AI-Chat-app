@@ -157,7 +157,7 @@
     "deny": "Deny",
     "desc": "We would like to anonymously collect usage information to help us improve LobeChat and provide you with a better product experience. You can disable this at any time in Settings - About.",
     "learnMore": "Learn More",
-    "title": "Help LobeChat be better"
+    "title": "Help L-Chat be better"
   },
   "temp": "Temporary",
   "terms": "Terms of Service",
@@ -171,7 +171,7 @@
     "anonymousNickName": "Anonymous User",
     "billing": "Billing Management",
     "data": "Data Storage",
-    "defaultNickname": "Community User",
+    "defaultNickname": "L-Chat User",
     "discord": "Community Support",
     "docs": "Documentation",
     "email": "Email Support",
