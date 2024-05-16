@@ -1,0 +1,18 @@
+{
+  "chat": {
+    "description": "L-Chat offers you the best ChatGPT, OLLaMA, Gemini, Claude WebUI user experience",
+    "title": "L-Chat: Personal LLM Productivity Tool, Give Yourself a Smarter Brain"
+  },
+  "market": {
+    "description": "Content creation, copywriting, Q&A, image generation, video generation, voice generation, smart agents, automation workflows, customize your own AI / GPTs / OLLaMA intelligent agent",
+    "title": "Agent Market"
+  },
+  "plugins": {
+    "description": "Search, chart generation, academic, image generation, video generation, voice generation, automation workflows, customize ChatGPT / OLLaMA exclusive ToolCall plugin capabilities",
+    "title": "Plugin Market"
+  },
+  "welcome": {
+    "description": "L-Chat offers you the best ChatGPT, OLLaMA, Gemini, Claude WebUI user experience",
+    "title": "Welcome to L-Chat: Personal LLM Productivity Tool, Give Yourself a Smarter Brain"
+  }
+}
