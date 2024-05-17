@@ -4,7 +4,7 @@ import { Flexbox } from 'react-layout-kit';
 
 import Follow from '@/features/Follow';
 
-const COPYRIGHT = `© ${new Date().getFullYear()} LobeHub, LLC`;
+const COPYRIGHT = `© ${new Date().getFullYear()} L-chat, LLC`;
 
 const DesktopLayout = ({ children }: PropsWithChildren) => {
   return (
@@ -16,7 +16,7 @@ const DesktopLayout = ({ children }: PropsWithChildren) => {
       style={{ overflow: 'hidden', position: 'relative' }}
       width={'100%'}
     >
-      <Logo size={36} style={{ alignSelf: 'flex-start' }} type={'text'} />
+      {/* <Logo size={36} style={{ alignSelf: 'flex-start' }} type={'text'} /> */}
       <GridShowcase innerProps={{ gap: 24 }} style={{ maxWidth: 1024 }} width={'100%'}>
         {children}
       </GridShowcase>

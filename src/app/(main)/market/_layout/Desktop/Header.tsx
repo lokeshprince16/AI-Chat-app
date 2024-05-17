@@ -8,8 +8,8 @@ import ShareAgentButton from '../../features/ShareAgentButton';
 
 export const useStyles = createStyles(({ css, token }) => ({
   logo: css`
-    color: ${token.colorText};
-    fill: ${token.colorText};
+    // color: ${token.colorText};
+    // fill: ${token.colorText};
   `,
 }));
 
@@ -18,7 +18,7 @@ const Header = memo(() => {
 
   return (
     <ChatHeader
-      left={<Logo className={styles.logo} extra={'Discover'} size={36} type={'text'} />}
+      left={<Logo extra={'Discover'} size={36} type={'text'} />}
       right={<ShareAgentButton />}
     />
   );

@@ -21,9 +21,9 @@ export const AUTHOR_LIST = {
     url: 'https://github.com/arvinxx',
   },
   lobehub: {
-    avatar: 'https://avatars.githubusercontent.com/u/131470832?v=4',
+    // avatar: 'https://avatars.githubusercontent.com/u/131470832?v=4',
     desc: 'Official Account',
-    name: 'LobeHub',
+    name: 'L-Chat',
     url: 'https://github.com/lobehub',
   },
 };
@@ -89,7 +89,7 @@ class Ld {
         'url': urlJoin(OFFICIAL_SITE, '/icon-512x512.png'),
         'width': 512,
       },
-      'name': 'LobeHub',
+      'name': 'L-Chat',
       'sameAs': [
         X,
         'https://github.com/lobehub',
@@ -102,7 +102,7 @@ class Ld {
 
   getAuthors(ids: string[] = []) {
     const defaultAuthor = {
-      '@id': this.getId(SITE_URL, '#organization'),
+      // '@id': this.getId(SITE_URL, '#organization'),
       '@type': 'Organization',
     };
     if (!ids || ids.length === 0) return defaultAuthor;
@@ -192,7 +192,7 @@ class Ld {
       '@type': 'WebSite',
       'description': pkg.description,
       'inLanguage': 'en-US',
-      'name': 'LobeChat',
+      'name': 'L-Chat',
       'publisher': {
         '@id': this.getId(SITE_URL, '#organization'),
       },
@@ -207,7 +207,7 @@ class Ld {
   }
 
   private fixTitle(title: string) {
-    return title.includes('LobeChat') ? title : `${title} · LobeChat`;
+    return title.includes('L-Chat') ? title : `${title} · L-Chat`;
   }
 
   private fixUrl(url: string) {

@@ -14,7 +14,7 @@ import { serverConfigSelectors } from '@/store/serverConfig/selectors';
 import AboutList from './features/AboutList';
 import Analytics from './features/Analytics';
 
-const COPYRIGHT = `© 2023-${new Date().getFullYear()} LobeHub, LLC`;
+const COPYRIGHT = `© 2023-${new Date().getFullYear()} L-Chat, LLC`;
 
 const Page = memo(({ mobile }: { mobile?: boolean }) => {
   const enabledTelemetryChat = useServerConfigStore(serverConfigSelectors.enabledTelemetryChat);

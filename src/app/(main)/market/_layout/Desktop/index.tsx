@@ -16,7 +16,7 @@ const Layout = ({ children, detail }: LayoutProps) => {
       style={{ position: 'relative' }}
       width={'100%'}
     >
-      <Header />
+      {/* <Header /> */}
       <Flexbox height={'100%'} horizontal style={{ position: 'relative' }} width={'100%'}>
         <Flexbox
           align={'center'}

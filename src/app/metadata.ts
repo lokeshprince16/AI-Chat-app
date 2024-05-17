@@ -5,7 +5,7 @@ import { getServerConfig } from '@/config/server';
 import { OFFICIAL_URL } from '@/const/url';
 import { translation } from '@/server/translation';
 
-const title = 'LobeChat';
+const title = 'L-Chat';
 
 const { SITE_URL = OFFICIAL_URL } = getServerConfig();
 const { BASE_PATH } = getClientConfig();
@@ -46,7 +46,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
     },
     title: {
       default: t('chat.title'),
-      template: '%s · LobeChat',
+      template: '%s · L-Chat',
     },
     twitter: {
       card: 'summary_large_image',

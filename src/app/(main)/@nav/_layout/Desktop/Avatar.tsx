@@ -48,6 +48,6 @@ const Avatar = memo(() => {
   );
 });
 
-Avatar.displayName = 'Avatar';
+// Avatar.displayName = 'Avatar';
 
 export default Avatar;
